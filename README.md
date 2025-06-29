@@ -20,4 +20,5 @@ Let's master the essentials of data science and analysis with Python, Pandas and
 |[polars_sql](https://github.com/rutkat/machine-learning/tree/main/polars_sql)|DataFrame faster than Pandas for performance and scalability|  
 |[sentiment-demo](https://github.com/rutkat/machine-learning/tree/main/sentiment-demo)| Sentiment text analyzer and vectorizer|  
 |[text_to_image](https://github.com/rutkat/machine-learning/tree/main/text_to_image)|Text-to-image generator using stable-diffusion early transformers |  
+|[chatbot_vectorizer](https://github.com/rutkat/machine-learning/blob/main/chatbot_vectorizer/main.ipynb)| How vectors from text are create using TF-IDF which finds smililarities.|  
 
