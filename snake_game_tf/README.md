@@ -2,7 +2,7 @@
 
 AI-controlled (TensorFlow-training) snake game using TensorFlow.js. Also playable manually.
 
-![TensorFlow-trained Snake game demo]('ai-snake.heic')
+![TensorFlow-trained Snake game demo](ai-snake-screen.jpg)
 ## Project Structure
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>  -->
 
