@@ -21,5 +21,5 @@ Let's master the essentials of data science and analysis with Python, Pandas and
 |[sentiment-demo](https://github.com/rutkat/machine-learning/tree/main/sentiment-demo)| Sentiment text analyzer and vectorizer|  
 |[text_to_image](https://github.com/rutkat/machine-learning/tree/main/text_to_image)|Text-to-image generator using stable-diffusion early transformers |  
 |[chatbot_vectorizer](https://github.com/rutkat/machine-learning/blob/main/chatbot_vectorizer/main.ipynb)| How vectors from text are create using TF-IDF which finds similarities.|  
-|[snake_game_tf](https://github.com/rutkat/machine-learning/tree/main/snake-game-tf) |Snake game training itself to win using TensorFlow |  
+|[snake_game_tf](https://github.com/rutkat/machine-learning/tree/main/snake_game_tf) |Snake game training itself to win using TensorFlow |  
 
