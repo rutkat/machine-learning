@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+/*    margin: 0;*/
+    font-family: Verdana;
+    background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 40px,
+      rgb(255 255 255 / 0.5) 40px,
+      rgb(255 255 255 / 0.5) 45px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent 40px,
+      rgb(255 255 255 / 0.5) 40px,
+      rgb(255 255 255 / 0.5) 45px
+    ),
+    linear-gradient(45deg, pink, skyblue);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.marquee_box {
+/*  color: #CFC;*/
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    border: 4px solid;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #333;  
+/*  max-width: 60ch;*/
+}
+
+.marquee {
+  position: relative;
+  width: 100%;
+  height: 1.6em;
+  font-size: 5em;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.marquee_text {
+    position: absolute;
+    min-width: 100%;
+    white-space: nowrap;
+    animation: marquee 16s infinite linear;
+}
+@keyframes marquee {
+    from { translate: 70%; }
+    to { translate: -70%; }
+}
+
+.marquee_blur {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background-color: #327;
+    background-image:
+      linear-gradient(to right, skyblue, 1rem, transparent 50%),
+      linear-gradient(to left, skyblue, 1rem, transparent 50%);
+    filter: contrast(15);
+}
+.marquee p {
+  filter: blur(0.07em);
+}
+
+  
+.marquee_clear {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.dropdown, .btn, .file-input {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.dropdown {
+    background-color: #fff;
+    color: #333;
+}
+
+.btn {
+    background-color: #0CC;
+    color: #fff;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: #0EC;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.scoreboard h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    color: #000;
+    padding: 10px;
+}
+
+canvas {
+    border: 3px solid aqua; /*  #ce3 */
+/*    background: rgba(255, 255, 255, 0.5);*/
+    background: aqua;
+    box-shadow: 0 0 20px #333;
+}

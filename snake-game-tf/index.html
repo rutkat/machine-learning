@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Snake Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/tfjs.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="marquee_box">
+            <div class="marquee">
+                <div class="marquee_blur" aria-hidden="true">
+                  <p class="marquee_text">AI Snake Game!</p>
+                </div>
+                <div class="marquee_clear">
+                  <p class="marquee_text">AI Snake Game!</p>
+                </div>
+            </div>
+        </div>
+        <div class="top-bar">
+            <div class="controls">
+                <label for="mode" class="label">Game Mode:</label>
+                <select id="mode" class="dropdown">
+                    <option value="manual">Play Manually</option>
+                    <option value="model">AI Mode</option>
+                </select>
+                <button id="startGame" class="btn">Start</button>
+                <button id="restartGame" class="btn" style="display:none;">Restart Game</button>
+            </div>
+            <div class="scoreboard">
+                <h2>Score: <span id="score">0</span></h2>
+                <!-- <h2>High Score: <span id="highScore">0</span></h2> -->
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    <script src="js/ai.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
